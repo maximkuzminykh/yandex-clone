@@ -1,0 +1,41 @@
+.nc-account {
+	display: inline-flex;
+	flex-direction: column;
+
+	width: 180px;
+	padding: 12px 15px 14px 20px;
+
+	background-color: @grey-light;
+
+	&__header {
+		display: flex;
+		align-items: flex-start;
+		justify-content: space-between;
+	}
+
+	&__userpic {
+
+	}
+
+	&__username {
+		padding-top: 4px;
+
+		&-first-letter {
+			color: @red;
+		}
+	}
+
+	&__links {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+
+	&__link {
+		margin-bottom: 12px;
+	}
+
+	&__text {
+		margin-right: 8px;
+	}
+}

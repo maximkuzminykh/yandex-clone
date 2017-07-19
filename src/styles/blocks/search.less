@@ -1,0 +1,40 @@
+.nc-search {
+	padding: 30px 62px 0 0;
+
+	@media (max-width: 1120px) {
+		padding-left: 138px;
+	}
+
+	&__form-wrapper {
+		position: relative;
+
+		padding: 11px 0 11px 0;
+	}
+
+	&__logo {
+		display: inline-block;
+		width: 115px;
+		height: 43px;
+
+		position: absolute;
+		top: 7px;
+		left: -138px;
+
+		.icon_logo();
+	}
+
+	&__query-sample {
+	}
+
+	&__query-sample-text {
+	}
+
+	&__query-sample-sample {
+		color: @grey;
+
+		&:hover {
+			color: @red;
+			cursor: pointer;
+		}
+	}
+}

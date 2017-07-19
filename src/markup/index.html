@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>NC homework</title>
+    <link rel="stylesheet" href="../styles/main.css">
+</head>
+
+<body>
+<div class="nc-root">
+    <header class="nc-page-header">
+		<div class="nc-page-header__inner-wrapper">
+			<div class="nc-page-header__location-wrapper">
+	            <div class="nc-location">
+					<a class="nc-location__link nc-link">
+						<i class="nc-location__icon nc-icon"></i>
+						<span class="nc-location__text _font-grey">Москва</span>
+					</a>
+	            </div>
+	        </div>
+
+	        <div class="nc-page-header__settings-wrapper">
+				<div class="nc-page-header__page-settings-button">
+					<span class="nc-page-header__page-settings-button-text">Настройка</span>
+				</div>
+
+				<section class="nc-account">
+					<div class="nc-account__header">
+						<span class="nc-account__username">
+							<span class="nc-account__username-first-letter">p</span>ostal1992
+						</span>
+						<img class="nc-account__userpic" src="../images/png/userpic.png"/>
+					</div>
+
+		            <nav class="nc-account__links">
+		                <a class="nc-account__link nc-link" href="#">
+		                    <span class="nc-account__text _font-bold">Почта</span>
+		                </a>
+
+		                <a class="nc-account__link nc-link" href="#">
+		                    <span class="nc-account__text _font-bold">Деньги</span>
+		                    <span class="nc-account__text">0 &#8381;</span>
+		                </a>
+
+		                <a class="nc-account__link nc-link" href="#">
+		                    <span class="nc-account__text _font-bold">Диск</span>
+		                </a>
+
+		                <a class="nc-account__link nc-link" href="#">
+		                    <span class="nc-account__text">Написать письмо</span>
+		                </a>
+		            </nav>
+		        </section>
+	        </div>
+		</div>
+    </header>
+
+    <main class="nc-page-content">
+		<div class="nc-page-content__inner-wrapper">
+			<section class="nc-news">
+	            <header class="nc-news__header">
+	                <a class="nc-news__header-link nc-link" href="#">
+	                    <span class="nc-news__header-title">Главное в СМИ</span>
+	                </a>
+
+	                <a class="nc-news__header-link nc-link" href="#">
+	                    <span class="nc-news__header-location">в Москве</span>
+	                </a>
+
+	                <span class="nc-news__header-time _font-grey">6 июля, четверг 14:52</span>
+	            </header>
+
+	            <div class="nc-news__content">
+	                <ol class="nc-news-list">
+	                    <li class="nc-news-list__item">
+	                        <a class="nc-news-list__link nc-link" href="#">
+	                            <span class="nc-news-list__item-text">
+	                              Кремль прокомментировал поездку Путина на лимузине «Кортеж»
+	                            </span>
+	                        </a>
+	                    </li>
+
+	                    <li class="nc-news-list__item">
+	                        <a class="nc-news-list__link nc-link" href="#">
+	                            <span class="nc-news-list__item-text">
+	                              Путин освободил от должности восемь генералов МВД, МЧС и ФСИН
+	                            </span>
+	                        </a>
+	                    </li>
+
+	                    <li class="nc-news-list__item">
+	                        <a class="nc-news-list__link nc-link" href="#">
+				                <span class="nc-news-list__item-text">
+				                  Трамп: Россия дестабилизирует ситуацию в Восточной Европе
+				                </span>
+	                        </a>
+	                    </li>
+
+	                    <li class="nc-news-list__item">
+	                        <a class="nc-news-list__link nc-link" href="#">
+				                <span class="nc-news-list__item-text">
+				                  Глава Крыма объявил об увольнении трех министров и мэра Ялты
+				                </span>
+	                        </a>
+	                    </li>
+
+	                    <li class="nc-news-list__item">
+	                        <a class="nc-news-list__link nc-link" href="#">
+				                <span class="nc-news-list__item-text">
+				                  Siemens опровергла сообщения о поставках турбин в Крым в обход санкций
+				                </span>
+	                        </a>
+	                    </li>
+	                </ol>
+	            </div>
+
+	            <footer class="nc-news__footer">
+	                <div class="nc-currency-list">
+	                    <div class="nc-currency-list__item">
+	                        <a class="nc-currency-list__link nc-link" href="#">
+	                            <span class="nc-currency-list__name">USD ЦБ</span>
+	                        </a>
+	                        <span class="nc-currency-list__rate">60,24</span>
+	                        <span class="nc-currency-list__change _font-grey">+0,66</span>
+	                    </div>
+
+	                    <div class="nc-currency-list__item">
+	                        <a class="nc-currency-list__link nc-link" href="#">
+	                            <span class="nc-currency-list__name">EUR ЦБ</span>
+	                        </a>
+	                        <span class="nc-currency-list__rate">68,38</span>
+	                        <span class="nc-currency-list__change _font-grey">+0,70</span>
+	                    </div>
+
+	                    <div class="nc-currency-list__item">
+	                        <a class="nc-currency-list__link nc-link" href="#">
+	                            <span class="nc-currency-list__name">Нефть</span>
+	                        </a>
+	                        <span class="nc-currency-list__rate">48,50</span>
+	                        <span class="nc-currency-list__change _font-grey">+0,58%</span>
+	                    </div>
+
+						<!-- TODO -->
+	                    <!-- <div class="nc-currency-list__extension-button">
+	                        <button class="nc-button-ellipsis"></button>
+	                    </div> -->
+	                </div>
+	            </footer>
+	        </section>
+
+	        <section class="nc-search">
+				<nav class="nc-apps-links">
+	                <a class="nc-apps-links__link nc-link" href="#">
+	                    <span class="nc-apps-links__app-name">Карты</span>
+	                </a>
+
+	                <a class="nc-apps-links__link nc-link" href="#">
+	                    <span class="nc-apps-links__app-name">Маркет</span>
+	                </a>
+
+	                <a class="nc-apps-links__link nc-link" href="#">
+	                    <span class="nc-apps-links__app-name">Новости</span>
+	                </a>
+
+	                <a class="nc-apps-links__link nc-link" href="#">
+	                    <span class="nc-apps-links__app-name">Переводчик</span>
+	                </a>
+
+	                <a class="nc-apps-links__link nc-link" href="#">
+	                    <span class="nc-apps-links__app-name">Картинки</span>
+	                </a>
+
+	                <a class="nc-apps-links__link nc-link" href="#">
+	                    <span class="nc-apps-links__app-name">Видео</span>
+	                </a>
+
+	                <a class="nc-apps-links__link nc-link" href="#">
+	                    <span class="nc-apps-links__app-name">Музыка</span>
+	                </a>
+
+	                <span class="nc-apps-links__button-other-apps">еще</span>
+	            </nav>
+
+				<div class="nc-search__form-wrapper">
+					<i class="nc-search__logo nc_icon"></i>
+					<div class="nc-search-form">
+		                <form class="nc-search-form__form">
+		                    <input class="nc-search-form__input" type="text" name="searchQuery"/>
+		                    <button class="nc-search-form__submit-button" type="reset">Найти</button>
+		                </form>
+		            </div>
+				</div>
+
+	            <div class="nc-search__query-sample">
+					<span class="nc-search__query-sample-text">
+						Найдется все. Например,
+					</span>
+	                <span class="nc-search__query-sample-sample">
+	            		самая большая планета солнечной системы
+	          		</span>
+	            </div>
+	        </section>
+
+	        <section class="nc-widgets">
+				<div class="nc-widgets__inner-wrapper">
+					<article class="nc-widget _weather">
+		                <div class="nc-widget__header">
+		                    <a class="nc-widget__link nc-link" href="#">
+		                        <span class="nc-widget__title">Погода</span>
+								<i class="nc-widget__icon nc-icon"></i>
+		                        <span class="nc-widget__title-additional-info">+18С</span>
+		                    </a>
+		                </div>
+
+		                <a class="nc-widget__link nc-link" href="#">
+		                    <span class="nc-widget__text">Ночь +11,  утро +12</span>
+		                </a>
+		            </article>
+
+					<article class="nc-widget _traffic">
+		                <div class="nc-widget__header">
+		                    <a class="nc-widget__link nc-link" href="#">
+		                        <span class="nc-widget__title">Пробки</span>
+		                        <i class="nc-widget__icon nc-icon"></i>
+		                        <span class="nc-widget__title-additional-info">2 балла</span>
+		                    </a>
+		                </div>
+
+		                <div class="nc-widget__traffic-forecast">
+		                    <span class="nc-widget__text">Прогноз</span>
+		                </div>
+
+		                <div class="nc-widget__traffic-forecast">
+		                    <span class="nc-widget__text _font-bold">Прогноз</span>
+		                </div>
+		            </article>
+
+					<article class="nc-widget _map">
+						<div class="nc-widget__header">
+							<a class="nc-widget__link nc-link" href="#">
+							   <span class="nc-widget__title">Карта москвы</span>
+						   	</a>
+						</div>
+
+
+		                <a class="nc-widget__link nc-link" href="#">
+		                    <span class="nc-widget__text _font-bold">Метро</span>
+		                </a>
+
+		                <a class="nc-widget__link nc-link" href="#">
+		                    <span class="nc-widget__text _font-bold">Такси</span>
+		                </a>
+
+		                <a class="nc-widget__link nc-link" href="#">
+		                    <span class="nc-widget__text _font-bold">Расписания</span>
+		                </a>
+
+		                <a class="nc-widget__link nc-link" href="#">
+		                    <span class="nc-widget__text _font-bold">Междугородние автобусы</span>
+		                </a>
+		            </article>
+
+		            <article class="nc-widget _popular">
+						<div class="nc-widget__header">
+							<a class="nc-widget__link nc-link" href="#">
+			                    <span class="nc-widget__title">Посещаемое</span>
+			                </a>
+						</div>
+
+		                <ul class="nc-widget__list">
+		                    <li class="nc-widget__list-item">
+		                        <a class="nc-widget__link nc-link" href="#">
+		                            <span class="nc-widget__text _font-bold">Маркет - </span>
+		                        </a>
+
+		                        <a class="nc-widget__link nc-link" href="#">
+		                            <span class="nc-widget__text ">шуруповерты до 5000</span>
+		                        </a>
+		                    </li>
+
+		                    <li class="nc-widget__list-item">
+		                        <a class="nc-widget__link nc-link" href="#">
+		                            <span class="nc-widget__text _font-bold">Авто.ру — </span>
+		                        </a>
+
+		                        <a class="nc-widget__link nc-link" href="#">
+		                            <span class="nc-widget__text ">снижение цен на авто</span>
+		                        </a>
+		                    </li>
+
+		                    <li class="nc-widget__list-item">
+		                        <a class="nc-widget__link nc-link" href="#">
+		                            <span class="nc-widget__text _font-bold">Недвижимость — </span>
+		                        </a>
+
+		                        <a class="nc-widget__link nc-link" href="#">
+		                            <span class="nc-widget__text ">ЖК Варшавское ш. 141</span>
+		                        </a>
+		                    </li>
+
+		                    <li class="nc-widget__list-item">
+		                        <a class="nc-widget__link nc-link" href="#">
+		                            <span class="nc-widget__text _font-bold">Работа — </span>
+		                        </a>
+
+		                        <a class="nc-widget__link nc-link" href="#">
+		                            <span class="nc-widget__text ">зарплата от 50 000 руб</span>
+		                        </a>
+		                    </li>
+
+		                    <li class="nc-widget__list-item">
+		                        <a class="nc-widget__link nc-link" href="#">
+		                            <span class="nc-widget__text _font-bold">ЕГЭ — </span>
+		                        </a>
+
+		                        <a class="nc-widget__link nc-link" href="#">
+		                            <span class="nc-widget__text ">тесты по русскому</span>
+		                        </a>
+		                    </li>
+
+		                    <li class="nc-widget__list-item">
+		                        <a class="nc-widget__link nc-link" href="#">
+		                            <span class="nc-widget__text _font-bold">Радио — </span>
+		                        </a>
+
+		                        <a class="nc-widget__link nc-link" href="#">
+		                            <span class="nc-widget__text ">для любителей шансона</span>
+		                        </a>
+		                    </li>
+
+		                    <li class="nc-widget__list-item">
+		                        <a class="nc-widget__link nc-link" href="#">
+		                            <span class="nc-widget__text _font-bold">Картинки — </span>
+		                        </a>
+
+		                        <a class="nc-widget__link nc-link" href="#">
+		                            <span class="nc-widget__text ">космос и планеты</span>
+		                        </a>
+		                    </li>
+		                </ul>
+		            </article>
+
+		            <article class="nc-widget _tvschedule">
+		                <div class="nc-widget__header">
+		                    <a class="nc-widget__link nc-link" href="#">
+		                        <span class="nc-widget__title">Телепрограмма</span>
+		                    </a>
+		                </div>
+
+		                <ul class="nc-widget__list">
+		                    <li class="nc-widget__list-item">
+		                        <span class="nc-widget__text">16:00</span>
+
+		                        <a class="nc-widget__link nc-link" href="#">
+		                            <span class="nc-widget__text">Мужское / Женское</span>
+		                        </a>
+
+		                        <a class="nc-widget__link nc-link" href="#">
+		                            <span class="nc-widget__text _font-grey">Первый</span>
+		                        </a>
+		                    </li>
+
+		                    <li class="nc-widget__list-item">
+		                        <span class="nc-widget__text">16:00</span>
+
+		                        <a class="nc-widget__link nc-link" href="#">
+		                            <span class="nc-widget__text">Сегодня</span>
+		                        </a>
+
+		                        <a class="nc-widget__link nc-link" href="#">
+		                            <span class="nc-widget__text _font-grey">НТВ</span>
+		                        </a>
+		                    </li>
+
+		                    <li class="nc-widget__list-item">
+		                        <span class="nc-widget__text">16:00</span>
+
+		                        <a class="nc-widget__link nc-link" href="#">
+		                            <span class="nc-widget__text">10 самых.</span>
+		                        </a>
+
+		                        <a class="nc-widget__link nc-link" href="#">
+		                            <span class="nc-widget__text _font-grey">ТВ Центр</span>
+		                        </a>
+		                    </li>
+
+		                    <li class="nc-widget__list-item">
+		                        <span class="nc-widget__text">16:00</span>
+
+		                        <a class="nc-widget__link nc-link" href="#">
+		                            <span class="nc-widget__text">Гадалка</span>
+		                        </a>
+
+		                        <a class="nc-widget__link nc-link" href="#">
+		                            <span class="nc-widget__text _font-grey">ТВ-3</span>
+		                        </a>
+		                    </li>
+
+		                    <li class="nc-widget__list-item">
+		                        <span class="nc-widget__text">16:00</span>
+
+		                        <a class="nc-widget__link nc-link" href="#">
+		                            <span class="nc-widget__text">Реальные пацаны</span>
+		                        </a>
+
+		                        <a class="nc-widget__link nc-link" href="#">
+		                            <span class="nc-widget__text _font-grey">ТНТ</span>
+		                        </a>
+		                    </li>
+
+		                    <li class="nc-widget__list-item">
+		                        <span class="nc-widget__text">16:05</span>
+
+		                        <a class="nc-widget__link nc-link" href="#">
+		                            <span class="nc-widget__text">Информационная программа</span>
+		                        </a>
+
+		                        <a class="nc-widget__link nc-link" href="#">
+		                            <span class="nc-widget__text _font-grey">РЕН ТВ</span>
+		                        </a>
+		                    </li>
+		                </ul>
+		            </article>
+
+		            <article class="nc-widget _affiche">
+						<div class="nc-widget__header">
+							<a class="nc-widget__link nc-link" href="#">
+			                    <span class="nc-widget__title">Афиша</span>
+			                </a>
+						</div>
+
+		                <ul class="nc-widget__list">
+		                    <li class="nc-widget__list-item">
+		                        <a class="nc-widget__link nc-link" href="#">
+		                            <span class="nc-widget__text">Во всем виноват енот</span>
+		                        </a>
+
+		                        <span class="nc-widget__text _font-grey">премьера завтра</span>
+		                    </li>
+
+		                    <li class="nc-widget__list-item">
+		                        <a class="nc-widget__link nc-link" href="#">
+		                            <span class="nc-widget__text">Трансформеры: Последний...</span>
+		                        </a>
+
+		                        <span class="nc-widget__text _font-grey">фантастика</span>
+		                    </li>
+
+		                    <li class="nc-widget__list-item">
+		                        <a class="nc-widget__link nc-link" href="#">
+		                            <span class="nc-widget__text">Гадкий я 3</span>
+		                        </a>
+
+		                        <span class="nc-widget__text _font-grey">мультфильм</span>
+		                    </li>
+
+		                    <li class="nc-widget__list-item">
+		                        <a class="nc-widget__link nc-link" href="#">
+		                            <span class="nc-widget__text">Тачки 3</span>
+		                        </a>
+
+		                        <span class="nc-widget__text _font-grey">мультфильм</span>
+		                    </li>
+
+		                    <li class="nc-widget__list-item">
+		                        <a class="nc-widget__link nc-link" href="#">
+		                            <span class="nc-widget__text">Синяя бездна</span>
+		                        </a>
+
+		                        <span class="nc-widget__text _font-grey">ужасы</span>
+		                    </li>
+
+		                    <li class="nc-widget__list-item">
+		                        <a class="nc-widget__link nc-link" href="#">
+		                            <span class="nc-widget__text _font-bold">Концерты -</span>
+		                        </a>
+
+		                        <a class="nc-widget__link nc-link" href="#">
+		                            <span class="nc-widget__text _font-bold">Hurts</span>
+		                        </a>
+		                    </li>
+		                </ul>
+		            </article>
+				</div>
+	        </section>
+		</div>
+    </main>
+
+    <footer class="nc-page-footer">
+		<div class="nc-page-footer__inner-wrapper">
+			<a class="nc-page-footer__link nc-link" href="#">
+	            <span class="nc-page-footer__text _font-bold">Дзен </span>
+				<span class="nc-page-footer__text">— персональная лента публикаций</span>
+	        </a>
+
+	        <a class="nc-page-footer__link nc-link" href="#">
+	            <span class="nc-page-footer__text _font-bold">Видео </span>
+				<span class="nc-page-footer__text">— популярные ролики</span>
+	        </a>
+
+	        <a class="nc-page-footer__link nc-link" href="#">
+	            <span class="nc-page-footer__text _font-bold">ТВ онлайн </span>
+				<span class="nc-page-footer__text">— эфир любимых каналов</span>
+	        </a>
+
+	        <a class="nc-page-footer__link nc-link" href="#">
+	            <span class="nc-page-footer__text _font-bold">Телепередачи </span>
+				<span class="nc-page-footer__text">— архив лучших выпусков</span>
+	        </a>
+
+	        <a class="nc-page-footer__link nc-link" href="#">
+	            <span class="nc-page-footer__text">Директ</span>
+	        </a>
+
+	        <a class="nc-page-footer__link nc-link" href="#">
+	            <span class="nc-page-footer__text">Метрика</span>
+	        </a>
+
+	        <a class="nc-page-footer__link nc-link" href="#">
+	            <span class="nc-page-footer__text">Реклама</span>
+	        </a>
+
+	        <a class="nc-page-footer__link nc-link" href="#">
+	            <span class="nc-page-footer__text">Касса</span>
+	        </a>
+
+	        <a class="nc-page-footer__link nc-link" href="#">
+	            <span class="nc-page-footer__text">Вакансии</span>
+	        </a>
+
+	        <a class="nc-page-footer__link nc-link" href="#">
+	            <span class="nc-page-footer__text">Блог</span>
+	        </a>
+
+	        <a class="nc-page-footer__link nc-link" href="#">
+	            <span class="nc-page-footer__text">Компания</span>
+	        </a>
+
+	        <a class="nc-page-footer__link nc-link" href="#">
+	            <span class="nc-page-footer__text">About</span>
+	        </a>
+
+	        <a class="nc-page-footer__link nc-link" href="#">
+	            <span class="nc-page-footer__text">Помощь</span>
+	        </a>
+
+	        <a class="nc-page-footer__link nc-link" href="#">
+	            <span class="nc-page-footer__text">Обратная связь</span>
+	        </a>
+		</div>
+    </footer>
+</div>
+</body>
+</html>

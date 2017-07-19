@@ -1,0 +1,26 @@
+.nc-search-form {
+	.font-medium();
+
+	&__form {
+		// To remove space beetween inline elements:
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+	}
+
+	&__input {
+		flex-grow: 1;
+
+		height: 38px;
+		padding: 0 20px 0 10px;
+
+		border: 2px solid @yellow;
+	}
+
+	&__submit-button {
+		width: 87px;
+		height: 38px;
+
+		.icon_search-button-bg();
+	}
+}

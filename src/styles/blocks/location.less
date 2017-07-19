@@ -1,0 +1,24 @@
+.nc-location {
+	&__link {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		align-items: center;
+	}
+
+	&__icon {
+		width: 12px;
+		height: 12px;
+		margin-right: 5px;
+
+		.icon_location();
+	}
+
+	&__text {
+
+	}
+
+	&:hover &__text {
+		color: @red;
+	}
+}

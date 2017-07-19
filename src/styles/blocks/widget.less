@@ -1,0 +1,94 @@
+.nc-widget {
+	flex-basis: 33%;
+	padding-right: 40px;
+	padding-bottom: 18px;
+
+	&__link {
+
+	}
+
+	&__header {
+		margin-bottom: 12px;
+
+		.font-large();
+	}
+
+
+	&__title {
+		color: @blue;
+	}
+
+
+	&__title-additional-info {
+
+	}
+
+	&__text {
+
+	}
+
+	&__list {
+		&-item {
+			padding-bottom: 12px;
+		}
+
+		.nc-widget._weather & {}
+	}
+
+	3
+}
+
+.nc-widget._weather {
+	.nc-widget {
+		&__header {
+			position: relative;
+		}
+
+		&__title-additional-info {
+			margin-left: 40px;
+		}
+
+		&__icon {
+			display: inline-block;
+			width: 32px;
+			height: 32px;
+
+			position: absolute;
+			left: 70px;
+			top: -5px;
+
+			.icon_weather();
+		}
+	}
+}
+
+.nc-widget._traffic {
+	.nc-widget {
+		&__header {
+			position: relative;
+		}
+
+		&__title-additional-info {
+			margin-left: 35px;
+		}
+
+		&__icon {
+			display: inline-block;
+			width: 32px;
+			height: 32px;
+
+			position: absolute;
+			left: 70px;
+			top: -5px;
+
+			.icon_jams();
+		}
+	}
+}
+
+.nc-widget._map {
+	.nc-widget__link {
+		margin-right: 10px;
+		line-height: 2;
+	}
+}
